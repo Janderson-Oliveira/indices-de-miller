@@ -52,7 +52,7 @@ if options.verbose:
 
 
 hkl = options.hkl
-listathetas = np.loadtxt(options.datafile, unpack=True)
+
 s1, s2, s3 = np.loadtxt(options.amostras, unpack=True)
 
 saida=options.outputfile
@@ -81,7 +81,11 @@ def cal_theta(amostra1 = s1, amostra2 = s2, amostra3 = s3):
 thetas = cal_theta(amostra1 = s1, amostra2 = s2, amostra3 = s3)
 print thetas 
 
-exit()
+
+listathetas = np.loadtxt(options.datafile, unpack=True)
+
+
+
 
 def Rad(numero): #esta funcao converte para radiano os valores de theta
     rad = (numero/180)*math.pi
