@@ -7,8 +7,9 @@
     
     @autor:  Janderson <joliveira@lna.br>
     
-    OBSERVAÇÃO!! >> Este código ainda não esta finalizado 
-    
+    ################ ATENÇÃO ##################
+    >> Este código ainda não esta finalizado <<
+    ###########################################
      
     Simple usage example:
     
