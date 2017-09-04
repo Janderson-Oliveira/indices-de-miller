@@ -6,8 +6,10 @@
     Descricao: Calculo do parametro alfa.
     
     @autor:  Janderson <joliveira@lna.br>
-
     
+    OBSERVAÇÃO!! >> Este código ainda não esta finalizado 
+    
+     
     Simple usage example:
     
     ./calcalfa.py --amostras=amostras.txt --datafile=theta.txt --outputfile=melhorestimativa.txt
